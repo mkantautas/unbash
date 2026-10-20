@@ -188,7 +188,7 @@ unbash provides:
 
 Parse throughput in MB/s; higher is better. Median per-run p75 iteration times
 from 11 isolated runs per parser and workload, on Apple M1 Pro/32GB with Node.js
-24.19.0. Parentheses show speed relative to unbash v5.
+24.19.0. Parentheses show speed relative to unbash v6.
 
 | Parser                       | short (1.1KiB) | advanced (0.9KiB) | medium (150KiB) | large (970KiB) |
 | ---------------------------- | -------------: | ----------------: | --------------: | -------------: |
@@ -215,7 +215,7 @@ fresh process, with reversed order on repeats.
 
 ## Size
 
-The parser bundle is 85K minified and 21K gzipped.
+The parser bundle is 100K minified and 26K gzipped.
 
 ## Playgrounds
 
@@ -229,7 +229,7 @@ ISC
 [1]: https://unba.sh/unba.sh.webp
 [2]: https://www.npmx.dev/package/unbash
 [3]: https://img.shields.io/npm/v/unbash?color=f56e0f
-[4]: https://img.shields.io/npm/dm/unbash?color=f56e0f
+[4]: https://img.shields.io/badge/dynamic/json?url=https://npm-gapless.webpro.nl/downloads/range/last-month/unbash&query=$.totalCompact&label=downloads&suffix=/month&color=f56e0f
 [5]: https://nodejs.org/api/util.html#utilparseargsconfig
 [6]: https://yargs.js.org/
 [7]: https://www.npmjs.com/package/citty
